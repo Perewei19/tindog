@@ -1,0 +1,204 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-1{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  position: relative;
+}
+
+
+.heading-2{
+  color: #fff;
+  font-size: 3rem;
+
+}
+
+.headers-3{
+  font-size: 1.5rem;
+  
+}
+
+/* navigation bar */
+
+#title{
+  background: #ff4c68;
+}
+
+
+#wrap{
+  padding: 3% 15%
+}
+
+
+nav ul li{
+  padding: 0 12px;
+}
+
+nav ul li a{
+  font-size: 1.2rem;
+}
+
+#nav{
+  padding-bottom:50px;
+}
+
+#logo{
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+/* Title section */
+
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.tittle-image{
+  position: absolute;
+  right: 25.5%;
+  width: 20%;
+  transform: rotate(25deg);
+}
+
+/* Features section */
+
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.write-up{
+  color: #8f8f8f;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.dog{
+  border-radius: 100%;
+  width: 15%;
+  padding: 3%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.description{
+  color: white;
+}
+
+.carousel-item{
+padding: 5% 15%;
+}
+
+/* pricing section */
+.wrapper{
+  text-align: center;
+}
+
+.but{
+  width: 100%;
+}
+
+#pricing{
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.card{
+  margin: 20px 10px;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 6% 15%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cta-heading{
+ font-size: 3rem;
+}
+
+#cta button {
+  display: inline;
+  margin: 4% 2%;
+}
+
+
+/* Footer */
+
+#footer{
+  margin: 0 auto;
+  text-align: center;
+  padding: 6% 0;
+}
+
+#footer i {
+ margin: 15px 12px;
+}
+
+
+#footer i:hover {
+ background-color: #e1e0e2;
+ padding: 10px;
+}
+
+/* media query */
+@media (max-width: 991px){
+
+  .tittle-image{
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+
+  #title{
+    text-align: center;
+  }
+}
